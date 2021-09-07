@@ -105,7 +105,7 @@ h1 {
     opacity: 0%;
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -155,18 +155,18 @@ h1 {
 }
 
 .glitch-1 {
-    animation: glitch1 3s infinite;
+    animation: glitch1 2s infinite;
     z-index: 2;
 }
 
 .glitch-2 {
     color: var(--neon-blue);
-    animation: glitch2 3s infinite;
+    animation: glitch2 2s infinite;
 }
   
 .glitch-3 {
     color: var(--neon-red);
-    animation: glitch3 3s infinite;
+    animation: glitch3 2s infinite;
 }
 
 #match-result {
@@ -187,6 +187,34 @@ h1 {
     border: 1px double white;
     border-radius: 10px;
     margin-top: 20px;
+    transition: transform 0.30s;
+}
+
+.outro-text {
+  display: none;
+  font-size: 1.3em;
+  opacity: 0%;
+  margin: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+#reward-button {
+  display: none;
+  width: 50vw;
+  min-width: 200px;
+  max-width: 400px;
+  background: transparent;
+  color: white;
+  font-family: cyber;
+  font-size: 3em;
+  border: 1px double white;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: transform 0.30s;
+  padding: 20px 0px;
 }
 
 @-webkit-keyframes ShineAnimation{
